@@ -1,0 +1,32 @@
+* {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.cuerpo{
+    background-color: rgb(24, 28, 48);
+    color: #E6DDC4;
+}
+
+nav {
+    display: flex;
+    margin: 0px 50px;
+    align-items:center;
+    justify-content: space-between;
+}
+
+.transiciones {
+    display: flex;
+    list-style-type: none;
+    width: 300px;
+    justify-content: space-around;
+}
+
+.trans-item {
+    padding: 10px;
+    background-color: #E6DDC4;
+    box-shadow: 2px 3px #678983;
+    border-radius: 10px;
+    text-decoration: none;
+    color: #181d31;
+    font-weight: 300px;
+}

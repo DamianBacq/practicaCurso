@@ -1,5 +1,6 @@
 * {
     font-family: 'Montserrat', sans-serif;
+    margin: auto 0px;
 }
 
 .cuerpo{
@@ -9,8 +10,8 @@
 
 nav {
     display: flex;
-    margin: 0px 50px;
-    align-items:center;
+    margin: 0px 40px;
+    align-items: center;
     justify-content: space-between;
 }
 
@@ -29,4 +30,21 @@ nav {
     text-decoration: none;
     color: #181d31;
     font-weight: 300px;
+}
+
+header {
+    display: flex;
+    justify-content: space-around;
+    min-height: 500px;
+    color: white;
+    background: url(./assets/codigo.jpg);
+    background-size: cover;
+    align-items: center;
+    padding: 0px 100px;
+}
+
+.titulo {
+    text-shadow: 2px 2px gray, 6px 6px black;
+    font-size: 55px;
+    text-align: center;
 }

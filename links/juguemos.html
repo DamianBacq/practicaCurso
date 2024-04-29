@@ -8,7 +8,14 @@
 </head>
 <body class="cuerpo">
     <nav>
-        <a href="../index.html"> ICONO </a>
+        <a href="../index.html">
+            <svg width="200" height="80">
+                <rect x="45" y="5" width="60" height="35" rx="5" class="cuadroGrande" fill="#F0E9D2"></rect>
+                <rect x="50" y="10" width="50" height="25" rx="5" class="cuadroChico" fill="#495579"></rect>
+                <polygon points="55 45, 95 45, 115 62, 30 62" fill="#F0E9D2" class="tecladoGrande"></polygon>
+                <polygon points="57 48, 92 48, 104 58, 43 58" fill="#495579" class="tecladoChico"></polygon>
+            </svg>
+        </a>
         <ul class="transiciones">
             <li>
                 <a class="trans-item" href="historia.html"> HISTORIA </a>
@@ -18,7 +25,31 @@
             </li>
         </ul>
     </nav>
-    <p> Juguemos </p>
-    <script src="/script.js"></script>
+    <header>
+        <h1 class="titulo">JUGUEMOS UN POCO</h1>
+      </header>
+    <main class="juego">
+        <h2 class="subtitulo">Armemos el rompecabezas y veamos que imagen es</h2>
+        <section class="juegoTarjetas">
+            <div class="cajas">
+                <div class="caja" id="cajasoltar">
+                    <p>Arrastre y suelte la imagen aquí</p>
+                </div>
+                <div class="caja" id="cajasoltar2">
+                    <p>Arrastre y suelte la imagen aquí</p>
+                </div>
+                <div class="caja" id="cajasoltar3">
+                    <p>Arrastre y suelte la imagen aquí</p>
+                </div>
+            </div>
+            <div id="cajaImagenes">
+                <img id="imagen1" src="/assets/rompe2.png" alt="Imagen-rompecabezas">
+                <img id="imagen2" src="/assets/Rompe1.png" alt="Imagen-rompecabezas">
+                <img id="imagen3" src="/assets/Rompe3.png" alt="Imagen-rompecabezas">
+            </div>
+        </section>
+        <button onclick="reinicio()" class="botonesVideo reinicio">Reiniciar</button>
+    </main>
+    <script src="/scriptJuego.js"></script>
 </body>
 </html>

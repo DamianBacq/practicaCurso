@@ -1,29 +1,77 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="styles.css">
-</head>
-<body class="cuerpo">
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body class="cuerpo">
     <nav>
-        <a href="index.html"> 
-            <h2 style="font-size: 80px;"> icono </h2>
-            
-        </a>
-        <ul class="transiciones">
-            <li>
-                <a class="trans-item" href="links/historia.html"> HISTORIA </a>
-            </li>
-            <li>
-                <a class="trans-item" href="links/juguemos.html"> JUGUEMOS </a>
-            </li>
-        </ul>
+      <a href="index.html">
+        <svg width="200" height="80">
+          <rect
+            x="45"
+            y="5"
+            width="60"
+            height="35"
+            rx="5"
+            class="cuadroGrande"
+            fill="#F0E9D2"
+          ></rect>
+          <rect
+            x="50"
+            y="10"
+            width="50"
+            height="25"
+            rx="5"
+            class="cuadroChico"
+            fill="#495579"
+          ></rect>
+          <polygon
+            points="55 45, 95 45, 115 62, 30 62"
+            fill="#F0E9D2"
+            class="tecladoGrande"
+          ></polygon>
+          <polygon
+            points="57 48, 92 48, 104 58, 43 58"
+            fill="#495579"
+            class="tecladoChico"
+          ></polygon>
+        </svg>
+      </a>
+      <ul class="transiciones">
+        <li>
+          <a class="trans-item" href="links/historia.html"> HISTORIA </a>
+        </li>
+        <li>
+          <a class="trans-item" href="links/juguemos.html"> JUGUEMOS </a>
+        </li>
+      </ul>
     </nav>
     <header>
-        <h1 class="titulo"> PROGRAMACION E HISTORIA</h1>
-    </header> 
+      <h1 class="titulo">PROGRAMACION E HISTORIA</h1>
+    </header>
+    <h1 class="subtitulo">CONTENIDO</h1>
+    <main class="tarjetas">
+      <div class="tarjetaIndividual">
+        <img src="./assets/img1.jpg" alt="Imagen 1" class="imagenes">
+        <p class="descripcion">Conozcamos un poco sobre la historia de la programacion</p>
+        <a href="./links/historia.html" class="botonTarjetas">Ir a Historia</a>
+      </div>
+      <div class="tarjetaIndividual">
+        <img src="./assets/img2.jpg" alt="Imagen 2" class="imagenes">
+        <p class="descripcion">Juguemos un poco sobre la computacion</p>
+        <a href="./links/juguemos.html" class="botonTarjetas">Ir a Juego</a>
+      </div>
+    </main>
+    <footer class="footerIndex">
+      <div class="izquierda">
+        <img src="./assets/logo.png" alt="logo" class="logoIndex">
+        <h3 class="palabrasFooter">PROGRAMACION <br>E<br> HISTORIA</h3>
+      </div>
+      <div>Sitio con fines educativos - Creado por M.Victoria Lopez</div>
+    </footer>
     <script src="script.js"></script>
-</body>
+  </body>
 </html>
